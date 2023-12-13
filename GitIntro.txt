@@ -1,0 +1,23 @@
+GUI :Graphical User Interface
+mkdir Make Folder
+	mkdir FolderName
+touch Make Files
+	touch Index.html
+
+Stages Of Git
+	1 Untracked   ------>Default Directory
+	2 Unstage     
+	3 Local Repo ---> Store Data Permenent
+	4 Modified / Deleted
+
+1 Step: 
+	git init   ------> Used For Initilization Features
+Git Configuration  ----> Configur User -> Name ->Email
+	git config --global user.name "Your Name"
+	git config --global user.email "Your Email"
+	git status 	----------> Check Current Stage
+	git add -A (Add All Files -> Tracked)
+	git add index.html     (Add Only Single File)
+	git commit -m "Message" (Store Data Into Local Repo)
+	git checkout index.html  (Restore Deleted File)
+	
