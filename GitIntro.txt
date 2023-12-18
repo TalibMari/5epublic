@@ -7,19 +7,29 @@ touch Make Files
 	touch Index.html
 
 Stages Of Git
-	1 Untracked   ------>Default Directory
+	1 Untracked   			-> Default Directory
 	2 Unstage     
-	3 Local Repo ---> Store Data Permenent
+	3 Local Repo 			-> Store Data Permenent --> Central Repo -> Github
 	4 Modified / Deleted
 
 1 Step: 
-	git init   ------> Used For Initilization Features
-Git Configuration  ----> Configur User -> Name ->Email
+	git init   		 	-> Initilize Git
+Git Configuration  			-> Configur User -> Name ->Email
 	git config --global user.name "Your Name"
 	git config --global user.email "Your Email"
-	git status 	----------> Check Current Stage
+	git status 			-> Check Current Stage
 	git add -A (Add All Files -> Tracked)
-	git add index.html     (Add Only Single File)
-	git commit -m "Message" (Store Data Into Local Repo)
-	git checkout index.html  (Restore Deleted File)
+	git add index.html     		(Add Only Single File)
+	git commit -m "Message" 	(Store Data Into Local Repo)
+	git checkout index.html  	(Restore Deleted File)
+
+Branch Topic
+	git branch BranchName     	-> Create New Branch
+	git checkout BranchName   	-> Move To Branch
+	git merge BranchName	  	-> Merge Branch Data
+	git branch -D BranchName  	-> Delete Branch
+
+Github Started Now
+
+
 	
